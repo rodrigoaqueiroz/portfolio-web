@@ -1,0 +1,57 @@
+* {
+    padding: 20px;
+}
+
+.image, .about {
+    font-family: monospace;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+h1{
+    color: #0081af;
+    text-align: center;
+    font-family: monospace;
+}
+
+h3 {
+    color: #00abe7;
+    margin: 20px, 20px
+}
+
+h4 {
+    color: #00abe7;
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+    margin: 0;
+    padding: 0
+}
+.image img{
+    border-radius: 50%;
+    float: left;
+    width: 300px;
+}
+
+.about {
+    padding: 0px;
+    text-align: left;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0081af
+}
+
