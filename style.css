@@ -1,5 +1,6 @@
 * {
     padding: 20px;
+    margin: 8px 8px;
 }
 
 .image, .about {
@@ -7,7 +8,7 @@
 }
 
 body {
-    background-color: #f9f9f9;
+    background-color: #f8d9d9;
 }
 
 h1{
@@ -18,7 +19,7 @@ h1{
 
 h3 {
     color: #00abe7;
-    margin: 20px, 20px
+    margin: 20px, 20px;
 }
 
 h4 {
@@ -31,6 +32,11 @@ h4 {
     margin: 0;
     padding: 0
 }
+
+img {
+    width: 100px;
+}
+
 .image img{
     border-radius: 50%;
     float: left;
@@ -40,18 +46,63 @@ h4 {
 .about {
     padding: 0px;
     text-align: left;
+    line-height: 32px;
 }
 
 .skills {
-    display: flex;
-    flex-direction: row;
+    padding: 0px;
 }
 
-a:link {
+.git .link{
+    margin: -120px
+}
+
+.trybe .link{
+    margin: -120px
+}
+
+
+.link{
+    text-align: left;
+}
+
+a {
     text-decoration: none;
+    color: black
 }
 
 a:hover{
-    color: #0081af
+    color: #0081af;
 }
 
+.html {
+    font-size: 16px;
+}
+
+.css {
+    font-size: 8px
+}
+
+.javascript {
+    font-size: 12px
+}
+
+.python {
+    font-size: 20px
+}
+
+.resiliencia {
+    font-size: 20px;
+}
+
+.empatia {
+    font-size: 16px;
+}
+
+.etica {
+    font-size: 12px;
+}
+
+.visao {
+    font-size: 8px;
+}
